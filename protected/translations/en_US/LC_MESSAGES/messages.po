@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Miguel Jiménez <miguel@dvmsoft.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Buscador"
+msgstr "Searcher"
+
+msgid "Pol&iacute;tica de privacidad"
+msgstr "Privacy Policy"
+
+msgid "Aviso Legal"
+msgstr "Legal Note"
+
+msgid "Link a Contacto"
+msgstr "Link to Contact"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "Anterior"
+msgstr "Previous"
+
+msgid "Siguiente"
+msgstr "Next"
+
+msgid "P&aacute;ginas"
+msgstr "Pages"
+
+msgid "Entradas"
+msgstr "Posts"
+
+msgid "No existen entradas"
+msgstr "There are no entries"
+
+msgid "No existen p&aacute;ginas"
+msgstr "No pages"
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Mantente informado"
+msgstr "Stay informed"
+
+msgid "Suscribe tu email y te mantendremos informado de las novedades"
+msgstr "Subscribe your email and keep you informed of developments"
+
+msgid "Ver"
+msgstr "View"
+
+msgid "P&aacute;gina no encontrada"
+msgstr "Page not found"
+
+msgid "Introduzca lo que quiere buscar..."
+msgstr "Enter what you want to search..."
+
+msgid "Noticias"
+msgstr "News"
+
+msgid "Datos de contacto"
+msgstr "Contact information"
+
+msgid "Env&iacute;anos un mensaje"
+msgstr "Send us an email"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Mensaje"
+msgstr "Message"
+
+msgid "Mandar mensaje"
+msgstr "Send message"
+
+msgid "Aqu&iacute; tu email"
+msgstr "Here your email"
+
+msgid "Suscr&iacute;bete"
+msgstr "Suscribe"
+
+msgid "B&uacute;squeda"
+msgstr "Searcher"
+
+msgid "Puede probar a volver a la p&aacute;gina de inicio"
+msgstr "You can try to return to homepage"
+
+msgid "Web desarrollada en el Programa Fortalecimiento de la Competitividad de las Mipyme Nicarag&uuml;enses"
+msgstr "Web developed in Strengthening Competitiveness Program of Nicaraguan MSMEs"
+
+msgid "Error producido al intentar subscribirte"
+msgstr "Error occurred while attempting to subscribe"
+
+msgid "Email suscrito correctamente"
+msgstr "Email successfully subscribed"
+
+msgid "Sobre nosotros"
+msgstr "About us"
+
+msgid "Contacta con nosotros"
+msgstr "Contact with us"
+
+msgid "Click para ver resultados"
+msgstr "Click for display results"
+
+msgid "Tel&eacute;fono"
+msgstr "Phone"
+
+msgid "Direcci&oacute;n"
+msgstr "Address"
+
+msgid "Asunto"
+msgstr "Subject"
+
+msgid "Enviar"
+msgstr "Send"
+
+msgid "No hay resultados"
+msgstr "There are not results"
+
+msgid "politica-de-privacidad"
+msgstr "privacy-policy"
+
+msgid "aviso-legal"
+msgstr "legal-notice"
+
+msgid "Bolet&iacute;n informativo"
+msgstr "Newsletter"
+
+msgid "Suscribete a nuestro bolet&iacute;n y te mantendremos informado de las novedades"
+msgstr "Subscribe to our boletin and we keep informed of news"
+

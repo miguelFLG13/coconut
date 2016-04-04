@@ -1,0 +1,859 @@
+body {
+   behavior: url("../style/csshover3.htc"); /* Para que haga el hover en los tr de los listados (clases listado1 y listado2) */
+}
+
+.texto {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+.textofichero {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #D9484B;
+	text-decoration: underline;
+}
+.tit {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+	text-decoration: none;
+	color:#333333;
+	line-height:1.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5b5b5d;
+}
+.tittablas {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color:#5b5b5d;
+	font-size:12px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5b5b5d;
+}
+.titminisite {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#567e01;
+	font-size:12px;
+	font-weight:bold;
+}
+.tittablassin {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color:#5b5b5d;
+	font-size:12px;
+}
+.tittablashr {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color:#567e01;
+	font-size:12px;
+	font-weight:bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #567e01;
+}
+.titmenu {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;
+	text-indent: 4px;
+}
+#titmenu { margin-left:-4px; }
+.titulos_rojo {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration: none;
+	color:#D9484B;
+	line-height:1.1em;	
+}
+a.tit_menuadmin{
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color:#ffffff;
+	font-size:12px;
+	font-weight:bold;
+}
+a:hover.tit_menuadmin {
+	border-bottom: 1px solid #ffffff;
+}
+.titdesplegables {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color:#ffffff;
+	background-color:#727272;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:10px;
+}
+.subtitmenu {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	text-decoration: none;
+	/*text-indent: 4px;
+	padding-left:3px;
+	padding-bottom:2px;*/
+	background-image: url(../images/fondo_menu.gif);
+	background-repeat: no-repeat;
+}
+a.subtitmenu:hover, a.subtitmenu:active {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #747474;
+	text-decoration: none;
+	/*text-indent: 4px;
+	padding-left:3px;*/
+	padding-bottom:2px;
+}
+.subtitsin {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	text-decoration: none;
+	text-indent: 4px;
+	padding-bottom:2px;
+}
+a.subtitsin:hover, a.subtitsin:active {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #747474;
+	text-decoration: none;
+	text-indent: 4px;
+	padding-bottom:2px;
+}
+.pie {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-left:20px;
+	padding-right:20px;
+}
+.nota {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8C8C8C;
+	text-decoration: none;
+}
+.cabecera {
+	border-bottom:1px solid #5b5b5d;
+	padding-bottom:5px;
+}
+.borde { border: 1px dotted #5b5b5d; }
+.borizq {
+	border-left-width: 1px;
+	border-left-style: dashed;
+	border-left-color: #FFF;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+}
+.borinf {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;	
+}
+.ficha_titulos_form {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size:11px;
+	color: #5b5b5d;
+	padding:0 10px 0 0px;
+	font-weight:bold;
+}
+.campo {
+	padding:1px 1px 1px 3px;
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E9E9E9;
+	border: 1px solid #b0b0b0;
+	width:500px;
+}
+.campotipo {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	padding:1px 1px 1px 3px;
+	background-color: #E9E9E9;
+	border: 1px solid #999;
+	width:100px;
+}
+.campotipocontenido {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	padding:1px 1px 1px 3px;
+	background-color: #E9E9E9;
+	border: 1px solid #999;
+	width:210px;
+}
+.campoespecial {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	padding:1px 1px 1px 1px;
+	background-color: #E9E9E9;
+	border: 1px solid #5b5b5d;
+	width:250px;
+}
+.campopreguntas {
+	padding:1px 1px 1px 3px;
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E9E9E9;
+	border: 1px solid #5b5b5d;	
+	width:150px;
+}
+.campotema{
+	padding:1px 1px 1px 3px;
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #E9E9E9;
+	border: 1px solid #5b5b5d;	
+	width:245px;
+}
+.boton {
+    background-color: #454596;
+    border: 1px solid #080859;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Verdana",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 6px;
+    text-decoration: none;
+}
+.botonsin {
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5b5b5d;
+	text-decoration: none;
+	background-color: #CACACC;
+	border: 1px solid #A6A6A8;
+	padding:1px;
+	cursor:pointer;
+}
+.botonlis {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #5b5b5d;
+	border: 1px solid #5b5b5d;
+	width:150px;
+	cursor:pointer;
+}
+.botonsup {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #5b5b5d;
+	border: 1px solid #5b5b5d;
+	cursor:pointer;
+}
+.botonasistente {
+	background-color:#F2FFD2;
+	color:#4D4D4D;
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size:11px;
+	height:20px;
+	padding:2px;
+	border: 1px solid #567e01;
+	cursor:pointer;
+}
+.ficha_boton {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size:11px;
+	color: #5b5b5d;
+	background-color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+.botonint {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #333333;
+	border: 1px solid #333333;
+	padding:1px;
+	cursor:pointer;
+}
+.fondomenu {
+	background-image: url(../images/fondo_menu_tabla.jpg);
+	background-repeat: no-repeat;
+}
+.usuario {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#333333;
+	font-size:12px;
+}
+.ruta-td {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	color:#fff;
+	font-size:11px;
+	vertical-align:middle;
+	padding:5px;
+}
+.ruta-enl {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	text-decoration:underline;
+	color:#fff;
+	font-size:11px;
+}
+.ruta {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	color:#fff;
+	font-size:11px;
+}
+/**********************************************************************
+**************************** Admin Template ***************************
+**********************************************************************/
+body {
+	text-align:center;
+	width:100%;
+	margin:5px 0px 5px 0px;
+	padding:0;
+	background-color:#E9E9E9;
+}
+.container-border {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px dotted #5B5B5D;
+}
+.container {
+	width: 960px;
+	min-height:500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+.clear {
+	clear:both;	
+}
+/************************
+******** HEADER *********
+************************/
+.header-wrap {
+	height:100px;
+	width:100%;
+	border-bottom: 1px solid #bababa;
+}
+/************************
+******* CONTENT *********
+************************/
+.content-wrap {
+	background-image:url('../images/body_background_cheat.png');
+	background-position:top left;
+	background-repeat:repeat-y;
+	background-color:#ffffff;
+	min-height:500px;
+	width:100%;
+	overflow:auto;
+}
+.content-wrap .sidebar {
+	background-color:#727272;
+	width:200px;
+	min-height:690px;
+	margin-left:0px;
+	margin-right:0px;
+	float:left;
+}
+.content-wrap .content {
+	background-color:#FFFFFF;
+	min-height:500px;
+	float:left;
+}
+.content .content-text {
+	width:740px;
+	margin-left:10px;
+	margin-right:10px;
+	float:left
+}
+.content-text .content-user {
+	font-family:"Arial",Verdana,Helvetica,sans-serif;
+	margin:5px 0px 5px 0px;
+	font-size:0.8em;
+	float:right;
+	line-height:25px;
+}
+.content-text .content-route {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	background-color:#333333;
+	font-size:11px;
+	color:#fff;
+	height:25px;
+}
+.content-text .content-route span {
+	margin-left:10px;
+	margin-right:10px;
+	line-height:25px;
+}
+.content-text .content-title {
+	font-family:"Arial",Verdana,Helvetica,sans-serif;
+	margin-top:20px;
+	font-size:1.2em;
+	font-weight:bold;
+}
+.content-text .content-title span {
+	line-height:30px;
+}
+.content-text .content-content {
+/*margin-top:20px;*/
+	margin-bottom:40px;
+}
+.content-text .content-footer {
+	margin-bottom:40px;
+}
+/************************
+******** FOOTER *********
+************************/
+.footer-wrap {
+	background-color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	height:25px;
+	width:100%;
+	font-size:0.8em;
+	color:#FFFFFF;
+}
+.footer-wrap .copyright {
+	float:left;
+	margin:5px 0px 5px 10px;
+}
+.footer-wrap .by {
+	float:right;
+	margin:5px 10px 5px 0px;
+}
+.footer-wrap .by a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+/************************
+********* MENU **********
+************************/
+.menu #title{
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	letter-spacing:0.03em;
+	font-size:1em;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+}
+.menu ul{
+	font-family:"Arial",Verdana,Helvetica,sans-serif;
+	list-style-type:none;
+	padding-left:0px;
+	margin-left:0;
+}
+.menu ul li{
+	border-bottom:1px dashed #333333;
+	height:28px;
+}
+.subMenu {
+	background-color:#919191;
+}
+.menu ul a {
+	margin-left:10px;
+	text-decoration: none;
+	letter-spacing:0.03em;
+	color:#FFFFFF;
+	font-size:0.75em;
+	font-weight:bold;
+	display:block;
+	line-height:28px;
+}
+.menu ul a:hover, .menu ul a.hover{
+	color:#2b2b2b;
+}
+/**********************************************************************
+**************************** Listados Zebra ***************************
+**********************************************************************/
+tr.listados1 {
+	background-color:#F5F5F5;
+	cursor:pointer;
+}
+tr.listados1:hover{
+	background-color:#F2FFD2;
+	cursor:pointer;
+}
+tr.listados2 {
+	background-color:#cccccc;
+	cursor:pointer;
+}
+tr.listados2:hover{
+	background-color:#F2FFD2;
+	cursor:pointer;
+}
+/**********************************************************************
+************************* Asistente multimedia ************************
+**********************************************************************/
+div.media-assist {
+    -moz-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #D3D3D3;
+	padding-top: 5px;
+	*padding-bottom:5px;
+	width:100%;
+}
+div.media-assist a img{
+	border:0px;
+}
+div.media-assist .media-assist-item {
+    -moz-border-radius: 5px 5px 5px 5px;
+    background-color: #D3D3D3;
+	height: 85px;
+	margin: 0px 5px 5px 5px;
+	overflow:hidden;
+}
+div.media-assist .media-assist-image {
+	height:100%;
+	float:left;
+	margin:5px;
+	width:12%;
+}
+div.media-assist .media-assist-image img {
+	width:75px;
+}
+div.media-assist .media-assist-title {
+	height:100%;
+	float: left;
+	margin:5px;
+	width:70%;
+}
+div.media-assist .media-assist-del {
+	width:10%;
+	height:100%;
+	margin:5px;
+	text-align:center;	
+	float:right;
+}
+div.media-assist .media-assist-del img {
+	margin-top:30px;
+}
+
+/* New styles */
+.logo{
+	float: left;
+	margin-left: 20px;
+}
+
+.tit2 {
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight:bold;
+	text-decoration: none;
+	color:#7d7d7d;
+	padding-top: 25px;
+	margin-right: 40px;
+	text-align: right;
+	text-transform:uppercase;
+}
+
+.login{
+	padding-top: 30px;
+}
+
+.blockContent{
+	margin-top: 25px;
+}
+
+.marginInput{
+	margin-top: 20px;
+}
+
+.float{
+	float: left;
+	width: 125px
+}
+
+.adminContent{
+	margin-top: 50px;
+}
+
+.editorHidden{
+	display: none;
+}
+
+.margin{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.pageSelector{
+  width: 70%;
+  margin-left: 15%;
+  height: 300px;
+}
+
+.tit3 {
+color: #121263;
+font-family: "Arial",Verdana,Helvetica,sans-serif;
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 10px;
+margin-right: 20px;
+margin-top: 30px;
+}
+
+#externalSource{
+	display: none;
+}
+
+.error{
+	background-color: #F6B5D3;
+	color: #DE0000;
+	text-align: center;
+	border: 1px solid #DE0000;
+	width:500px;
+	padding:5px;
+	margin-top: 50px;
+	margin-left: 15%;
+}
+
+/*************ESTILOS NUEVOS 04052015****************************/
+p.leyenda.margen{
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	margin-left: 124px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size:10px;
+	color:#969696;
+	text-decoration: none;
+}
+p.leyenda{
+	font-family: "Arial", Verdana, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size:10px;
+	color:#969696;
+	text-decoration: none;
+}
+.blockContent p {
+    font-family: "Arial",Verdana,Helvetica,sans-serif;
+    font-size: 12px;
+}
+a {
+    color: #454596;
+}
+
+/*****************ESTILOS NUEVOS 28082015***************************/
+
+.numeracionAd{
+	background-color: #454596;
+    width: 30px;
+    height: 30px;
+    font-size: 1.4em;
+    color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-right:20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.info{
+    width: 10px;
+    height: 10px;
+	background-color: #5DBE9A;
+    line-height:10px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.linea-gris{
+	height:30px;
+	 background-color:#8587D6;
+	 float:left;
+	 width:100%;
+	 margin-bottom:35px;
+}
+
+.linea-gris h4{
+	margin-top:0px;
+	color:#fff;
+}
+.linea-gris h4 a{
+	color:#fff;
+}
+
+.margin input[type="text"]{
+	height:25px;
+	margin-left:35px;
+	font-size:1.5em;
+	padding-left:20px;
+	width:80%;
+    color: #454596;
+}
+
+.margin textarea{
+	height:334px!important;
+}
+
+.margen-h3{
+	margin-top:40px;
+	font-size:1.3em;
+}
+
+.margin input[type="checkbox"]{
+	width:20px;
+	height:20px;
+}
+
+#inferiores a.boton{
+	position:absolute;
+}
+
+#inferiores{
+	margin-bottom:40px;
+}
+
+#text2_ifr{
+	height:100%!important;
+}
+
+.boton2{
+	background-color:#8587D6;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:3px solid #454596;
+}
+.boton1{
+	border-bottom:3px solid #454596;
+	margin-left:40px;
+}
+
+#raya{
+	border-bottom:3px solid #454596;
+	height:21px;
+	float:left;
+    margin-left: -10px;
+    width: 760px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+27,c4c4c4+85 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 27%, #c4c4c4 85%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,#ffffff), color-stop(85%,#c4c4c4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 27%,#c4c4c4 85%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 27%,#c4c4c4 85%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 27%,#c4c4c4 85%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 27%,#c4c4c4 85%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#bajolinea {
+	float:left;
+    margin-left: -10px;
+    width: 760px;
+    height:3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#555593+0,ffffff+99 */
+background: #555593; /* Old browsers */
+background: -moz-linear-gradient(top,  #555593 0%, #ffffff 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555593), color-stop(99%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #555593 0%,#ffffff 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #555593 0%,#ffffff 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #555593 0%,#ffffff 99%); /* IE10+ */
+background: linear-gradient(to bottom,  #555593 0%,#ffffff 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555593', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+    position: relative;
+    bottom: 13px;
+}
+
+.subir-boton{
+	margin-top:0px!important;
+	width:130px;
+	height:50px;
+}
+
+/* CAMBIOS 03/09 */
+#galleryImages{
+	width:100%;
+	overflow:hidden;
+}
+
+
+#galleryImages div{
+	float:left;
+	position:relative;
+	margin-right:5px;
+
+}
+
+#featuredImage div{
+	position:relative;
+
+}
+
+#galleryImages a{
+	position:absolute;
+	top:1px;
+	right:1px;
+}
+ #featuredImage a{
+	position:absolute;
+	top:1px;
+}
+#uploadImage{
+	display:none;
+}
+
+#s123, #g123{
+	cursor:pointer;
+	float:left;
+	width:50%;
+	line-height:50px;
+	font-family:arial;
+}
+#s123:hover, #g123:hover{
+	color:#454596;
+}
+
+#galleryImages div {
+    height: 106px;
+    overflow: hidden;
+    }
+
+#contenedorOpcion{
+	height:50px;
+	background-color:#fff;
+    margin-top: -5px;
+}
+
+#gallery, #uploadImage{
+	padding-top:15px;
+}
+
+

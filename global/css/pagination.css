@@ -1,0 +1,48 @@
+/*Paginacion estilo WP*/ 
+div.pagination { 
+	padding:3px; 
+	margin:3px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+div.pagination a { 
+	padding: 2px 5px 2px 5px; 
+	margin-right: 2px; 
+	border: 1px solid #ddd; 
+	text-decoration: none; 
+	color: #333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+div.pagination a:hover, div.pagination a:active { 
+	border:1px solid #999999; 
+	color: #333333; 
+	background-color: #ebebeb; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+div.pagination span.current { 
+	padding: 2px 5px 2px 5px; 
+	margin-right: 2px; 
+	border: 1px solid #999999; 
+	font-weight: bold; 
+	background-color: #999999; 
+	color: #FFF; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+div.pagination span.disabled {
+	padding: 1px 5px 1px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	color: #ccc;
+	font-size: 10px;	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div.pagination .simbolo {
+	padding: 1px 5px 1px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	font-size: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
